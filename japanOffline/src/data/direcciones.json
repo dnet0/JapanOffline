@@ -1,0 +1,29 @@
+{
+  "phrases": [
+    {
+      "jp": "右／左／まっすぐ",
+      "romaji": "migi / hidari / massugu",
+      "es": "derecha / izquierda / recto"
+    },
+    {
+      "jp": "ここ／そこ／あそこ",
+      "romaji": "koko / soko / asoko",
+      "es": "aquí / ahí / allí"
+    },
+    {
+      "jp": "近い／遠い",
+      "romaji": "chikai / tōi",
+      "es": "cerca / lejos"
+    },
+    {
+      "jp": "交番（小さな警察）",
+      "romaji": "kōban",
+      "es": "caseta de policía"
+    },
+    {
+      "jp": "トイレはどこですか？",
+      "romaji": "Toire wa doko desu ka?",
+      "es": "¿Dónde está el baño?"
+    }
+  ]
+}

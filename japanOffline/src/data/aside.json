@@ -1,0 +1,24 @@
+{
+  "emergencias": {
+    "policia": {
+      "numero": "110",
+      "descripcion": "Número de emergencia para contactar a la policía en Japón"
+    },
+    "ambulancia_bomberos": {
+      "numero": "119",
+      "descripcion": "Número de emergencia para ambulancias y bomberos en Japón"
+    }
+  },
+  "lugares": [
+    {
+      "kanji": "薬局",
+      "romaji": "Yakkyoku",
+      "espanol": "Farmacia"
+    },
+    {
+      "kanji": "交番",
+      "romaji": "Kōban",
+      "espanol": "Puesto de policía de barrio"
+    }
+  ]
+}

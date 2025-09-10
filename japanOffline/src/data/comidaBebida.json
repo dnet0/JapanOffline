@@ -1,0 +1,39 @@
+{
+  "phrases": [
+    {
+      "es": "¿Tienen menú en inglés?",
+      "jp": "英語のメニューはありますか？",
+      "romaji": "Eigo no menyū wa arimasu ka?"
+    },
+    {
+      "es": "Sin ___ por favor (carne/pescado/alcohol/gluten)",
+      "jp": "___ なしでお願いします。",
+      "romaji": "___ nashi de onegai shimasu."
+    },
+    {
+      "es": "Soy vegetariano/a",
+      "jp": "ベジタリアンです。",
+      "romaji": "Bejitarian desu."
+    },
+    {
+      "es": "Soy celíaco (no puedo comer gluten)",
+      "jp": "私はセリアック病です。グルテンを食べられません。",
+      "romaji": "Watashi wa seriakku-byō desu. Guruten o taberaremasen."
+    },
+    {
+      "es": "¿Esto contiene ___?",
+      "jp": "これは ___ が入っていますか？",
+      "romaji": "Kore wa ___ ga haitte imasu ka?"
+    },
+    {
+      "es": "Agua del grifo es potable",
+      "jp": "水道水は飲めますか？",
+      "romaji": "Suidōsui wa nomemasu ka?"
+    },
+    {
+      "es": "La cuenta, por favor",
+      "jp": "お会計をお願いします。",
+      "romaji": "Okaikei o onegai shimasu."
+    }
+  ]
+}

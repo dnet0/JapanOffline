@@ -1,0 +1,62 @@
+[
+  {
+    "titulo": "¡Ayuda, por favor!",
+    "japones": "助けてください！",
+    "romaji": "Tasukete kudasai!",
+    "espanol": "¡Ayúdeme, por favor!"
+  },
+  {
+    "titulo": "Llame a una ambulancia",
+    "japones": "救急車を呼んでください。",
+    "romaji": "Kyūkyūsha o yonde kudasai.",
+    "espanol": "Llame a una ambulancia, por favor."
+  },
+  {
+    "titulo": "Llame a la policía",
+    "japones": "警察を呼んでください。",
+    "romaji": "Keisatsu o yonde kudasai.",
+    "espanol": "Llame a la policía, por favor."
+  },
+  {
+    "titulo": "Estoy perdido/a",
+    "japones": "道に迷いました。",
+    "romaji": "Michi ni mayoimashita.",
+    "espanol": "Me he perdido."
+  },
+  {
+    "titulo": "No puedo encontrar a mi acompañante",
+    "japones": "連れとはぐれました。",
+    "romaji": "Tsure to haguremashita.",
+    "espanol": "Me separé de mi acompañante."
+  },
+  {
+    "titulo": "Teléfono/bolso/cartera perdido",
+    "japones": "携帯／バッグ／財布をなくしました。",
+    "romaji": "Keitai/ baggu/ saifu o nakushimashita.",
+    "espanol": "Perdí mi teléfono/bolso/cartera."
+  },
+  {
+    "titulo": "Robo",
+    "japones": "盗難にあいました。",
+    "romaji": "Tōnan ni aimashita.",
+    "espanol": "Fui víctima de robo."
+  },
+  {
+    "titulo": "Terremoto",
+    "japones": "地震です。安全な場所はどこですか？",
+    "romaji": "Jishin desu. Anzen na basho wa doko desu ka?",
+    "espanol": "Es un terremoto. ¿Dónde hay un lugar seguro?"
+  },
+  {
+    "titulo": "Refugio de evacuación",
+    "japones": "避難所はどこですか？",
+    "romaji": "Hinanjo wa doko desu ka?",
+    "espanol": "¿Dónde está el refugio?"
+  },
+  {
+    "titulo": "Necesito medicinas",
+    "japones": "薬が必要です。",
+    "romaji": "Kusuri ga hitsuyō desu.",
+    "espanol": "Necesito medicamentos."
+  }
+]

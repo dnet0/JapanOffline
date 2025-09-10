@@ -1,0 +1,24 @@
+{
+  "phrases": [
+    {
+      "es": "¿Se puede pagar con tarjeta?",
+      "jp": "クレジットカードは使えますか？",
+      "romaji": "Kurejitto kādo wa tsukaemasu ka?"
+    },
+    {
+      "es": "¿Aceptan efectivo solamente?",
+      "jp": "現金のみですか？",
+      "romaji": "Genkin nomi desu ka?"
+    },
+    {
+      "es": "¿Hay cajero automático?",
+      "jp": "ATMはありますか？",
+      "romaji": "Ētīemu wa arimasu ka?"
+    },
+    {
+      "es": "Recibo, por favor",
+      "jp": "領収書をください。",
+      "romaji": "Ryōshūsho o kudasai."
+    }
+  ]
+}

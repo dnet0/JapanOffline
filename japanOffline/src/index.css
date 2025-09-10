@@ -1,0 +1,153 @@
+:root{
+--bg:#f8faf6; /* soft paper */
+--card:#ffffff;
+--muted:#58606b;
+--accent:#2b4d7a; /* indigo blue */
+--accent-2:#8b5e3c; /* warm brown */
+--danger:#c94a3f;
+--paper:#fffdf8;
+--radius:14px;
+--shadow: 0 6px 24px rgba(43,77,122,0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  background-color: var(--bg);
+  font-family:Inter, 'Noto Sans JP', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; 
+  color:#1f2933
+}
+.wrap{
+  max-width: 980px;
+  margin: 28px auto;
+  padding: 24px
+}
+.logo{
+  height: 88px;
+  width: 88px;
+  border-radius: 10px;
+  color: var(--paper);
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  background: linear-gradient(180deg,#2C4D79,#895D3D);
+}
+
+.verticalKanji{
+  position: absolute;
+  top:2rem;
+  right: 8%;
+  rotate: -10deg;
+  
+  padding: 0.6rem;
+  opacity: 0.06;
+
+  font-size: 100px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 0;
+}
+.small{
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.footer{
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+
+  display: block;
+  unicode-bidi: isolate;
+}
+aside {
+  align-self: flex-start; /* evita que se estire */
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.icon{
+    background: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+.small-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+.icon svg {
+    width: 22px;
+    height: 22px;
+    opacity: 0.95;
+}
+.dotted{
+    margin: 12px 0;
+    border: none;
+    border-top: 1px dashed #eee;
+}
+/* Para ajusta el colo de las impresiones */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* responsive */
+@media (max-width:880px){
+  .logo{
+    width: 15rem;
+    height: 5rem;
+  }
+  aside{position:static}
+}
+.verticalKanji:active{
+  opacity: 0.2;
+  background-color: var(--danger);
+  color: var(--card);
+  border-radius: 10px;
+  cursor: pointer;  
+} 
+@media(hover: hover) and (pointer: fine){
+  .verticalKanji:hover{
+    opacity: 0.2;
+    background-color: var(--danger);
+    color: var(--card);
+    border-radius: 10px;
+    cursor: pointer;  
+  } 
+}

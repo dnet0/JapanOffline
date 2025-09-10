@@ -1,0 +1,65 @@
+{
+  "salud": {
+    "frases": [
+      {
+        "titulo": "Estoy enfermo/a",
+        "japones": "体調が悪いです。",
+        "romaji": "Taichō ga warui desu.",
+        "espanol": "Me siento mal."
+      },
+      {
+        "titulo": "Me duele… (cabeza/estómago/garganta)",
+        "japones": "頭／お腹／喉 が痛いです。",
+        "romaji": "Atama / onaka / nodo ga itai desu.",
+        "espanol": "Me duele la cabeza/el estómago/la garganta."
+      },
+      {
+        "titulo": "Soy alérgico/a a…",
+        "japones": "〜にアレルギーがあります。",
+        "romaji": "~ ni arerugī ga arimasu.",
+        "espanol": "Tengo alergia a…"
+      },
+      {
+        "titulo": "Soy celíaco",
+        "japones": "私はセリアック病です。グルテンを食べられません。",
+        "romaji": "Watashi wa seriakku-byō desu. Guruten o taberaremasen.",
+        "espanol": "Soy celíaco, no puedo comer gluten."
+      },
+      {
+        "titulo": "¿Hay farmacia cerca?",
+        "japones": "近くに薬局はありますか？",
+        "romaji": "Chikaku ni yakkyoku wa arimasu ka?",
+        "espanol": "¿Hay farmacia cerca?"
+      },
+      {
+        "titulo": "Necesito un hospital",
+        "japones": "病院に行きたいです。",
+        "romaji": "Byōin ni ikitai desu.",
+        "espanol": "Necesito un hospital."
+      }
+    ],
+    "alergenos": {
+      "title":"Alergenos",
+      "valores": [
+      { "kanji": "ピーナッツ", "romaji": "pīnatsu", "espanol": "cacahuetes" },
+      { "kanji": "甲殻類", "romaji": "kōkakurui", "espanol": "crustáceos" },
+      { "kanji": "乳製品", "romaji": "nyūseihin", "espanol": "lácteos" },
+      { "kanji": "卵", "romaji": "tamago", "espanol": "huevo" },
+      { "kanji": "そば", "romaji": "soba", "espanol": "trigo sarraceno" },
+      { "kanji": "グルテン", "romaji": "guruten", "espanol": "gluten" }
+    ]},
+    "medicinas": 
+    {
+      "title": "Medicinas",
+      "valores":[
+      { "kanji": "解熱剤", "romaji": "genetsuzai", "espanol": "antipirético (fiebre)" },
+      { "kanji": "鎮痛剤", "romaji": "chintsūzai", "espanol": "analgésico" },
+      { "kanji": "風邪薬", "romaji": "kazegusuri", "espanol": "medicamento para el resfriado" },
+      { "kanji": "胃薬", "romaji": "igusuri", "espanol": "medicamento para el estómago" },
+      { "kanji": "整腸剤", "romaji": "seichōzai", "espanol": "probióticos/regulador intestinal" },
+      { "kanji": "絆創膏", "romaji": "bansōkō", "espanol": "tiritas/vendas" },
+      { "kanji": "消毒液", "romaji": "shōdoku-eki", "espanol": "desinfectante" }
+    ]
+    }
+  }
+}

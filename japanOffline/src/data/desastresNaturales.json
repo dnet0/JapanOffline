@@ -1,0 +1,39 @@
+{
+  "phrases": [
+    {
+      "es": "Terremoto",
+      "jp": "地震",
+      "romaji": "jishin"
+    },
+    {
+      "es": "Refugio",
+      "jp": "避難所",
+      "romaji": "hinanjo"
+    },
+    {
+      "es": "Tsunami",
+      "jp": "津波",
+      "romaji": "tsunami"
+    },
+    {
+      "es": "Alerta",
+      "jp": "警報",
+      "romaji": "keihō"
+    },
+    {
+      "es": "Evacuación",
+      "jp": "避難",
+      "romaji": "hinan"
+    },
+    {
+      "es": "Por favor, guíeme al refugio",
+      "jp": "避難所まで案内してください。",
+      "romaji": "Hinanjo made annai shite kudasai."
+    },
+    {
+      "es": "¿Hay agua/comida disponible?",
+      "jp": "水／食料はありますか？",
+      "romaji": "Mizu / shokuryō wa arimasu ka?"
+    }
+  ]
+}

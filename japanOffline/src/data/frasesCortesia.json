@@ -1,0 +1,49 @@
+{
+  "phrases": [
+    {
+      "jp": "すみません",
+      "romaji": "sumimasen",
+      "es": "Perdón / Disculpe / Oiga"
+    },
+    {
+      "jp": "お願いします",
+      "romaji": "onegai shimasu",
+      "es": "Por favor"
+    },
+    {
+      "jp": "ありがとうございます",
+      "romaji": "arigatō gozaimasu",
+      "es": "Muchas gracias"
+    },
+    {
+      "jp": "はい／いいえ",
+      "romaji": "hai / iie",
+      "es": "Sí / No"
+    },
+    {
+      "jp": "分かりません",
+      "romaji": "wakarimasen",
+      "es": "No entiendo"
+    },
+    {
+      "jp": "ゆっくり話してください",
+      "romaji": "yukkuri hanashite kudasai",
+      "es": "Hable despacio, por favor"
+    },
+    {
+      "jp": "もう一度お願いします",
+      "romaji": "mō ichido onegai shimasu",
+      "es": "Otra vez, por favor"
+    },
+    {
+      "jp": "日本語は話せません。",
+      "romaji": "Nihongo wa hanasemasen.",
+      "es": "No hablo japonés"
+    },
+    {
+      "jp": "ここに書いてもらえますか？",
+      "romaji": "Koko ni kaite moraemasu ka?",
+      "es": "¿Puede escribirlo aquí?"
+    }
+  ]
+}

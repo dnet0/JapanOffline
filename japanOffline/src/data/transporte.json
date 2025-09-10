@@ -1,0 +1,34 @@
+{
+  "phrases": [
+    {
+      "es": "Estación / parada",
+      "jp": "駅／バス停",
+      "romaji": "Eki / basutei"
+    },
+    {
+      "es": "¿Cómo llego a ___?",
+      "jp": "___ へはどう行きますか？",
+      "romaji": "___ e wa dō ikimasu ka?"
+    },
+    {
+      "es": "Un billete a ___, por favor",
+      "jp": "___ までの切符をください。",
+      "romaji": "___ made no kippu o kudasai."
+    },
+    {
+      "es": "¿Esta línea va a ___?",
+      "jp": "この線は ___ に行きますか？",
+      "romaji": "Kono sen wa ___ ni ikimasu ka?"
+    },
+    {
+      "es": "IC Card (tarjeta recargable)",
+      "jp": "交通系ICカードは使えますか？",
+      "romaji": "Kōtsū-kei IC kādo wa tsukaemasu ka?"
+    },
+    {
+      "es": "Horarios / primer-último tren",
+      "jp": "時刻表はどこですか？／始発・終電は何時ですか？",
+      "romaji": "Jikokuhyō wa doko desu ka? / Shihatsu, shūden wa nanji desu ka?"
+    }
+  ]
+}

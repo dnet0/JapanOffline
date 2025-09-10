@@ -1,0 +1,20 @@
+{
+    "prohibiciones":[
+        {
+            "emoji":"🚭",
+            "describtion":"禁煙 — Kin'en — No fumar"
+        },
+        {
+            "emoji":"📷",
+            "describtion":"撮影禁止 — Satsuei kinshi — Prohibido fotografiar"
+        },
+        {
+            "emoji":"🍽️",
+            "describtion":"飲食禁止 — Inshoku kinshi — No comer ni beber"
+        },
+        {
+            "emoji":"🚫",
+            "describtion":"立入禁止 — Tachiiri kinshi — Prohibido el paso"
+        }
+    ]      
+}

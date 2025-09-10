@@ -1,0 +1,59 @@
+{
+  "signs": [
+    {
+      "jp": "出口",
+      "romaji": "deguchi",
+      "es": "salida"
+    },
+    {
+      "jp": "入口",
+      "romaji": "iriguchi",
+      "es": "entrada"
+    },
+    {
+      "jp": "非常口",
+      "romaji": "hijōguchi",
+      "es": "salida de emergencia"
+    },
+    {
+      "jp": "禁煙",
+      "romaji": "kin’en",
+      "es": "no fumar"
+    },
+    {
+      "jp": "危険",
+      "romaji": "kiken",
+      "es": "peligro"
+    },
+    {
+      "jp": "準備中／営業中",
+      "romaji": "junbi-chū / eigyō-chū",
+      "es": "preparando / abierto"
+    },
+    {
+      "jp": "撮影禁止",
+      "romaji": "satsuei kinshi",
+      "es": "prohibido fotografiar"
+    },
+    {
+      "jp": "飲食禁止",
+      "romaji": "inshoku kinshi",
+      "es": "prohibido comer/beber"
+    },
+    {
+      "jp": "携帯禁止",
+      "romaji": "keitai kinshi",
+      "es": "prohibido usar el móvil"
+    },
+    {
+      "jp": "立入禁止",
+      "romaji": "tachiiri kinshi",
+      "es": "prohibido el paso"
+    },
+    {
+      "jp": "ペット禁止",
+      "romaji": "petto kinshi",
+      "es": "prohibido entrar con animales"
+    }
+  ]
+}

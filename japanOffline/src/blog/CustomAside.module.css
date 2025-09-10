@@ -1,0 +1,7 @@
+.customAside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap:0.5rem;
+}

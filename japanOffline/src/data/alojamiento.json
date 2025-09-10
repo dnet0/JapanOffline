@@ -1,0 +1,24 @@
+{
+  "phrases": [
+    {
+      "es": "Tengo una reserva",
+      "jp": "予約しています。",
+      "romaji": "Yoyaku shite imasu."
+    },
+    {
+      "es": "¿Hay habitaciones libres?",
+      "jp": "空室はありますか？",
+      "romaji": "Kūshitsu wa arimasu ka?"
+    },
+    {
+      "es": "Necesito una noche más",
+      "jp": "もう一泊したいです。",
+      "romaji": "Mō ippaku shitai desu."
+    },
+    {
+      "es": "Baño / ducha / toallas",
+      "jp": "風呂／シャワー／タオル",
+      "romaji": "Furo / shawā / taoru"
+    }
+  ]
+}

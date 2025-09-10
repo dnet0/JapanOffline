@@ -26,3 +26,25 @@ Si quieres probarlo o adaptarlo, sigue estos pasos:
 ```bash
 git clone https://github.com/tuusuario/tu-repo.git
 cd tu-repo
+````
+### 2️⃣ Instala dependencias
+```bash
+npm install
+````
+### 3️⃣ Arranca el servidor de desarrollo
+```bash
+npm run dev
+````
+### 4️⃣ Genera la build de producción (opcional)
+```bash
+npm run build
+````
+### 5️⃣ Previsualiza la build
+```bash
+npm run preview
+````
+---
+## 🌟 Tu compañero de viaje
+
+Este proyecto está pensado como una guía offline de supervivencia en Japón 🇯🇵.
+Con el PDF descargado, nunca estarás realmente solo: llevarás contigo un recurso diseñado para ayudarte a orientarte y comunicarte sin depender de internet.

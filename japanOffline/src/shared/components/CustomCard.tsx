@@ -5,12 +5,12 @@ interface Props{
     title?: string,
     subtitle?: string,
     children: ReactNode;
-    customStyles?: CSSModuleClasses
+    customStyles?: boolean
 }
 
-export const CustomCard: FC<Props> = ({title, subtitle,children, customStyles}) => {
+export const CustomCard: FC<Props> = ({title, subtitle,children, customStyles= false}) => {
   return (
-    <div className={styles.customCard} style={customStyles}>
+    <div className={customStyles ? styles.customCardBeige : styles.customCard} >
         {
             title && <h2 className={styles.title}>{title}</h2>
         }

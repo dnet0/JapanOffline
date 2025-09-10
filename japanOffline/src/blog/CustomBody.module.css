@@ -13,15 +13,15 @@
     gap: 0.5rem;
     margin-bottom: 1.5rem;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 340px;
-    gap: 20px;
-    margin-top: 20px;
-}
+
 /* responsive */
 @media (max-width:880px){
-  .grid{grid-template-columns:1fr;}
+  .grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 .flexRow{
     display: flex;

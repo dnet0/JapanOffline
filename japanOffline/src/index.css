@@ -99,6 +99,12 @@ ul {
     gap: 8px;
     margin-bottom: 0.5rem;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 20px;
+    margin-top: 20px;
+}
 .small-icon{
     width: 36px;
     height: 36px;
@@ -119,13 +125,7 @@ ul {
     border: none;
     border-top: 1px dashed #eee;
 }
-/* Para ajusta el colo de las impresiones */
-@media print {
-  * {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-}
+
 
 /* responsive */
 @media (max-width:880px){
@@ -150,4 +150,68 @@ ul {
     border-radius: 10px;
     cursor: pointer;  
   } 
+}
+
+/* =================================
+ESTILOS ESPECÍFICOS PARA IMPRESIÓN A4
+================================= */
+@media print {
+  /* RESET COMPLETO PARA IMPRESIÓN */
+  * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+  }
+
+  /* CONFIGURACIÓN DE PÁGINA A4 */
+  @page {
+      size: A4;
+      margin: 15mm 20mm 15mm 20mm; /* top, right, bottom, left */
+      .a4-container {
+        width: 210mm;
+        min-height: 297mm;
+        margin: auto;
+        background: white;
+      }
+      /* Encabezado y pie de página */
+      @top-center {
+          content: "Guía de Supervivencia - Japón";
+          font-size: 10px;
+          color: #666;
+      }
+      
+      @bottom-right {
+          content: counter(page);
+          font-size: 10px;
+          color: #666;
+      }
+  }
+
+  /* CONFIGURACIÓN DEL BODY PARA A4 */
+  html, body {
+      width: 210mm !important;
+      height: 297mm !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 11pt !important; /* Tamaño óptimo para A4 */
+      line-height: 1.3 !important;
+      background: white !important;
+      color: #000 !important;
+  }
+  .verticalKanji{
+    display: none;
+  }
+} 
+.content-print{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Fuerza saltos de página en impresión */
+.page-break {
+  page-break-before: always; /* empieza en nueva hoja */
+}
+
+.page-break-inside-avoid {
+  page-break-inside: avoid; /* evita cortar dentro de la caja */
 }

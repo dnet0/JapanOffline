@@ -21,7 +21,7 @@ import { Phone } from "../icon/phone";
 
 export const CustomBody = () => {
   return (
-    <div className={styles.grid}>
+    <div className='grid' id='struct'>
       <main className={styles.customMain}>
         {/* Emergencias — Prioridad */}
         <CustomCard title="Emergencias — Prioridad">
@@ -205,15 +205,7 @@ export const CustomBody = () => {
           <hr className="dotted" />
           <p className="small">Prohibiciones habituales</p>
           {prohibiciones.prohibiciones.map((prohibiciones) => (
-            <CustomCard
-              customStyles={{
-                marginBottom: "0.5rem",
-                flexDirection: "row",
-                alignItems: "center",
-                gap: "0.5rem",
-                background: "linear-gradient(180deg,#FBFAF8,transparent)",
-              }}
-            >
+            <CustomCard key={prohibiciones.describtion} customStyles>
               <div className="small-icon">{prohibiciones.emoji}</div>
               <p style={{ fontSize: "14px" }}>{prohibiciones.describtion}</p>
             </CustomCard>

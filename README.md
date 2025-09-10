@@ -1,69 +1,28 @@
-# React + TypeScript + Vite
+# 🗾 Guía de Supervivencia en Japón sin Internet  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta web ha sido creada con un objetivo muy claro: **ayudarte a desenvolverte en Japón incluso cuando no tengas conexión a internet**.  
 
-Currently, two official plugins are available:
+Aquí encontrarás frases útiles, información de transporte, cultura, direcciones, números de emergencia y mucho más.  
+Todo está pensado para que puedas **descargar la guía en PDF** 📄 y llevarla siempre contigo, ya sea en el móvil, la tablet o impresa en papel.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+De esta forma, aunque te quedes sin datos o Wi-Fi, tendrás un manual de supervivencia listo para sacarte de apuros.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologías utilizadas  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ⚡ **Vite** → para arrancar el proyecto de forma rápida y ligera.  
+- ⚛️ **React** → para construir la interfaz.  
+- 🎨 **CSS Modules** → para mantener estilos organizados y sin conflictos.  
+- 📄 **html2pdf.js** → para convertir la web en un PDF portable.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💻 Cómo arrancar este proyecto  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Si quieres probarlo o adaptarlo, sigue estos pasos:  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1️⃣ Clona el repositorio  
+```bash
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo

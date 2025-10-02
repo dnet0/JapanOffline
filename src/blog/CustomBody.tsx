@@ -4,6 +4,7 @@ import policia from "../data/policia.json";
 import transporte from "../data/transporte.json";
 import alojamiento from "../data/alojamiento.json";
 import comidaBebida from "../data/comidaBebida.json";
+import comidaBebidaCeliacos from "../data/comidaBebidaCeliacos.json";
 import direcciones from "../data/direcciones.json";
 import dineroCompras from "../data/dineroCompras.json";
 import desastresNaturales from "../data/desastresNaturales.json";
@@ -72,6 +73,20 @@ export const CustomBody = () => {
               </ul>
             </CustomCard>
           </div>
+          <br />
+          <p className="small">
+            Frases específicas para celíacos en situaciones de salud y farmacia:
+          </p>
+          <div className={styles.customGrid} style={{ marginTop: "0.9rem" }}>
+            {saludFarmacia.salud.frasesMedicasCeliaco.map((emergencia, index) => (
+              <CustomSubCard
+                key={emergencia.titulo + index}
+                kanji={emergencia.japones}
+                pronunciacion={emergencia.romaji}
+                traduccion={emergencia.espanol}
+              />
+            ))}
+          </div>
         </CustomCard>
         {/*  Policía y objetos perdidos */}
         <CustomCard title="Policía y objetos perdidos">
@@ -124,6 +139,27 @@ export const CustomBody = () => {
               />
             ))}
           </div>
+        </CustomCard>
+        <CustomCard title="Comida y bebida sin gluten (Celiacos)">
+          <div className={styles.customGrid}>
+            {comidaBebidaCeliacos.phrases.map((comidaBebida, index) => (
+              <CustomSubCard
+                key={comidaBebida.jp + index}
+                kanji={comidaBebida.jp}
+                pronunciacion={comidaBebida.romaji}
+                traduccion={comidaBebida.es}
+              />
+            ))}
+          </div>
+            <CustomCard subtitle={saludFarmacia.salud.alergenosParaCelicaos.title}>
+              <ul className="small">
+                {saludFarmacia.salud.alergenosParaCelicaos.valores.map((valor) => (
+                  <li
+                    key={valor.kanji}
+                  >{`${valor.kanji} (${valor.romaji}) — ${valor.espanol}`}</li>
+                ))}
+              </ul>
+            </CustomCard>
         </CustomCard>
         {/* Direcciones rápidas (útiles con mapas) */}
         <CustomCard title="Direcciones rápidas (útiles con mapas)">

@@ -8,7 +8,8 @@
     background-color: var(--card);
     border-radius: 10px;   
     box-shadow: var(--shadow);
-
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 .customCardBeige{
     flex:1;
@@ -23,7 +24,9 @@
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
-    background: linear-gradient(180deg, #FBFAF8, #fff);        
+    background: linear-gradient(180deg, #FBFAF8, #fff);      
+    page-break-inside: avoid;
+    break-inside: avoid;  
      
 }
 .title{

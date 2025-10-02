@@ -9,7 +9,12 @@
     border-radius: 10px;      
     gap: 0.3rem;
 }
+.kanji{
+    font-family: "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 0.9rem;
+}
 .romanji{
     font-size: 12px;
+    text-align: center;
     color: var(--muted);
 }

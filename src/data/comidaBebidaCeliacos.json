@@ -1,0 +1,49 @@
+{
+    "phrases": [
+        {
+            "es": "Soy celiaco/a.",
+            "jp": "私はセリアック病です。",
+            "romaji": "Watashi wa seriakku-byo desu."
+        },
+        {
+            "es": "Tengo alergia al gluten.",
+            "jp": "私はグルテンアレルギーです。",
+            "romaji": "Watashi wa guruten arerugī desu."
+        },
+        {
+            "es": "Tengo alergia al trigo (a menudo más comprensible que «gluten»).",
+            "jp": "小麦アレルギーです。",
+            "romaji": "Komugi arerugi desu."
+        },
+        {
+            "es": "No puedo comer gluten.",
+            "jp": "グルテンが食べられません。",
+            "romaji": "Guruten ga taberaremasen."
+        },
+        {
+            "es": "No puedo comer trigo, cebada ni centeno.",
+            "jp": "小麦、大麦、ライ麦は食べられません。",
+            "romaji": "Komugi, omugi, raimugi wa taberaremasen."
+        },
+        {
+            "es": "¿Esto contiene trigo?",
+            "jp": "これは小麦を含みますか？",
+            "romaji": "Kore wa komugi o fukumimasu ka?"
+        },
+        {
+            "es": "¿Este plato no contiene trigo?",
+            "jp": "この料理は小麦不使用ですか？",
+            "romaji": "Kono ryōri wa komugi fushiyō desu ka?"
+        },
+        {
+            "es": "¿Tienen un menú sin gluten?",
+            "jp": "グルテンフリーのメニューはありますか？",
+            "romaji": "Guruten-furī no menyū wa arimasu ka?"
+        },
+        {
+            "es": "¿Utilizan salsa de soja sin trigo?",
+            "jp": "小麦不使用の醤油を使っていますか？",
+            "romaji": "Komugi fushiyō no shōyu o tsukatte imasu ka?"
+        }
+    ]
+}

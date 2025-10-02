@@ -10,7 +10,7 @@ interface Props{
 export const CustomSubCard: FC<Props> = ({kanji, pronunciacion, traduccion}) => {
   return (
     <div className={styles.customSubCard}>
-        <h3 style={{fontSize: '0.9rem'}}>{kanji}</h3>
+        <h3 className={styles.kanji}>{kanji}</h3>
         <p className={styles.romanji}>{pronunciacion}</p>
         <p className={styles.romanji}>
             {traduccion}

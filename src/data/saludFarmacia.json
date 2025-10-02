@@ -20,12 +20,6 @@
         "espanol": "Tengo alergia a…"
       },
       {
-        "titulo": "Soy celíaco",
-        "japones": "私はセリアック病です。グルテンを食べられません。",
-        "romaji": "Watashi wa seriakku-byō desu. Guruten o taberaremasen.",
-        "espanol": "Soy celíaco, no puedo comer gluten."
-      },
-      {
         "titulo": "¿Hay farmacia cerca?",
         "japones": "近くに薬局はありますか？",
         "romaji": "Chikaku ni yakkyoku wa arimasu ka?",
@@ -36,30 +30,246 @@
         "japones": "病院に行きたいです。",
         "romaji": "Byōin ni ikitai desu.",
         "espanol": "Necesito un hospital."
+      },
+      {
+        "titulo": "No puedo comer gluten",
+        "japones": "グルテンを食べられません。",
+        "romaji": "Guruten o taberaremasen.",
+        "espanol": "No puedo comer gluten."
+      },
+      {
+        "titulo": "No puedo comer trigo, cebada ni centeno",
+        "japones": "小麦や大麦、ライ麦は食べられません。",
+        "romaji": "Komugi ya ōmugi, raimugi wa taberaremasen.",
+        "espanol": "No puedo comer trigo, cebada ni centeno."
+      },
+      {
+        "titulo": "¿Medicinas sin gluten?",
+        "japones": "グルテンが入っていない薬はありますか？",
+        "romaji": "Guruten ga haitte inai kusuri wa arimasu ka?",
+        "espanol": "¿Tienen medicinas sin gluten?"
+      },
+      {
+        "titulo": "¿Este medicamento contiene trigo o almidón?",
+        "japones": "この薬に小麦やでんぷんは入っていますか？",
+        "romaji": "Kono kusuri ni komugi ya denpun wa haitte imasu ka?",
+        "espanol": "¿Este medicamento contiene trigo o almidón?"
+      },
+      {
+        "titulo": "Muéstreme la lista de ingredientes",
+        "japones": "成分表を見せてください。",
+        "romaji": "Seibunhyō o misete kudasai.",
+        "espanol": "¿Puede mostrarme la lista de ingredientes?"
+      },
+      {
+        "titulo": "Soy alérgico/a al gluten",
+        "japones": "私はグルテンにアレルギーがあります。",
+        "romaji": "Watashi wa guruten ni arerugī ga arimasu.",
+        "espanol": "Soy alérgico/a al gluten."
+      },
+      {
+        "titulo": "Mis síntomas son por celiaquía",
+        "japones": "症状はセリアック病によるものです。",
+        "romaji": "Shōjō wa seriakku-byo ni yoru mono desu.",
+        "espanol": "Mis síntomas son por celiaquía."
+      },
+      {
+        "titulo": "Debo evitar el gluten estrictamente",
+        "japones": "グルテンを避けなければなりません。",
+        "romaji": "Guruten o sake nakereba narimasen.",
+        "espanol": "Debo evitar el gluten estrictamente."
       }
     ],
     "alergenos": {
-      "title":"Alergenos",
+      "title": "Alergenos",
       "valores": [
-      { "kanji": "ピーナッツ", "romaji": "pīnatsu", "espanol": "cacahuetes" },
-      { "kanji": "甲殻類", "romaji": "kōkakurui", "espanol": "crustáceos" },
-      { "kanji": "乳製品", "romaji": "nyūseihin", "espanol": "lácteos" },
-      { "kanji": "卵", "romaji": "tamago", "espanol": "huevo" },
-      { "kanji": "そば", "romaji": "soba", "espanol": "trigo sarraceno" },
-      { "kanji": "グルテン", "romaji": "guruten", "espanol": "gluten" }
-    ]},
-    "medicinas": 
-    {
+        {
+          "kanji": "ピーナッツ",
+          "romaji": "pīnatsu",
+          "espanol": "cacahuetes"
+        },
+        {
+          "kanji": "甲殻類",
+          "romaji": "kōkakurui",
+          "espanol": "crustáceos"
+        },
+        {
+          "kanji": "乳製品",
+          "romaji": "nyūseihin",
+          "espanol": "lácteos"
+        },
+        {
+          "kanji": "卵",
+          "romaji": "tamago",
+          "espanol": "huevo"
+        },
+        {
+          "kanji": "そば",
+          "romaji": "soba",
+          "espanol": "trigo sarraceno"
+        },
+        {
+          "kanji": "グルテン",
+          "romaji": "guruten",
+          "espanol": "gluten"
+        }
+      ]
+    },
+    "frasesMedicasCeliaco": [
+      {
+        "titulo": "Soy celíaco/a",
+        "japones": "私はセリアック病です。",
+        "romaji": "Watashi wa seriakku-byo desu.",
+        "espanol": "Soy celíaco/a."
+      },
+      {
+        "titulo": "No puedo comer gluten",
+        "japones": "グルテンを食べられません。",
+        "romaji": "Guruten o taberaremasen.",
+        "espanol": "No puedo comer gluten."
+      },
+      {
+        "titulo": "No puedo comer trigo, cebada ni centeno",
+        "japones": "小麦や大麦、ライ麦は食べられません。",
+        "romaji": "Komugi ya ōmugi, raimugi wa taberaremasen.",
+        "espanol": "No puedo comer trigo, cebada ni centeno."
+      },
+      {
+        "titulo": "¿Medicinas sin gluten?",
+        "japones": "グルテンが入っていない薬はありますか？",
+        "romaji": "Guruten ga haitte inai kusuri wa arimasu ka?",
+        "espanol": "¿Tienen medicinas sin gluten?"
+      },
+      {
+        "titulo": "¿Este medicamento contiene trigo o almidón?",
+        "japones": "この薬に小麦やでんぷんは入っていますか？",
+        "romaji": "Kono kusuri ni komugi ya denpun wa haitte imasu ka?",
+        "espanol": "¿Este medicamento contiene trigo o almidón?"
+      },
+      {
+        "titulo": "Muéstreme la lista de ingredientes",
+        "japones": "成分表を見せてください。",
+        "romaji": "Seibunhyō o misete kudasai.",
+        "espanol": "¿Puede mostrarme la lista de ingredientes?"
+      },
+      {
+        "titulo": "Soy alérgico/a al gluten",
+        "japones": "私はグルテンにアレルギーがあります。",
+        "romaji": "Watashi wa guruten ni arerugī ga arimasu.",
+        "espanol": "Soy alérgico/a al gluten."
+      },
+      {
+        "titulo": "Mis síntomas son por celiaquía",
+        "japones": "症状はセリアック病によるものです。",
+        "romaji": "Shōjō wa seriakku-byo ni yoru mono desu.",
+        "espanol": "Mis síntomas son por celiaquía."
+      },
+      {
+        "titulo": "Debo evitar el gluten estrictamente",
+        "japones": "グルテンを避けなければなりません。",
+        "romaji": "Guruten o sake nakereba narimasen.",
+        "espanol": "Debo evitar el gluten estrictamente."
+      }
+    ],
+    "alergenosParaCelicaos": {
+      "title": "Alérgenos y términos clave (celíacos)",
+      "valores": [
+        {
+          "kanji": "グルテン",
+          "romaji": "guruten",
+          "espanol": "gluten"
+        },
+        {
+          "kanji": "麩質",
+          "romaji": "fushitsu",
+          "espanol": "gluten (menos común)"
+        },
+        {
+          "kanji": "小麦",
+          "romaji": "komugi",
+          "espanol": "trigo"
+        },
+        {
+          "kanji": "小麦粉",
+          "romaji": "komugiko",
+          "espanol": "harina de trigo"
+        },
+        {
+          "kanji": "大麦",
+          "romaji": "omugi",
+          "espanol": "cebada"
+        },
+        {
+          "kanji": "ライ麦",
+          "romaji": "raimugi",
+          "espanol": "centeno"
+        },
+        {
+          "kanji": "醤油",
+          "romaji": "shōyu",
+          "espanol": "salsa de soja"
+        },
+        {
+          "kanji": "たまり醤油",
+          "romaji": "tamari shōyu",
+          "espanol": "tamari (salsa de soja sin trigo)"
+        },
+        {
+          "kanji": "味噌",
+          "romaji": "miso",
+          "espanol": "miso"
+        },
+        {
+          "kanji": "酢",
+          "romaji": "su",
+          "espanol": "vinagre"
+        },
+        {
+          "kanji": "二次汚染",
+          "romaji": "niji osen",
+          "espanol": "contaminación cruzada"
+        }
+      ]
+    },
+    "medicinas": {
       "title": "Medicinas",
-      "valores":[
-      { "kanji": "解熱剤", "romaji": "genetsuzai", "espanol": "antipirético (fiebre)" },
-      { "kanji": "鎮痛剤", "romaji": "chintsūzai", "espanol": "analgésico" },
-      { "kanji": "風邪薬", "romaji": "kazegusuri", "espanol": "medicamento para el resfriado" },
-      { "kanji": "胃薬", "romaji": "igusuri", "espanol": "medicamento para el estómago" },
-      { "kanji": "整腸剤", "romaji": "seichōzai", "espanol": "probióticos/regulador intestinal" },
-      { "kanji": "絆創膏", "romaji": "bansōkō", "espanol": "tiritas/vendas" },
-      { "kanji": "消毒液", "romaji": "shōdoku-eki", "espanol": "desinfectante" }
-    ]
+      "valores": [
+        {
+          "kanji": "解熱剤",
+          "romaji": "genetsuzai",
+          "espanol": "antipirético (fiebre)"
+        },
+        {
+          "kanji": "鎮痛剤",
+          "romaji": "chintsūzai",
+          "espanol": "analgésico"
+        },
+        {
+          "kanji": "風邪薬",
+          "romaji": "kazegusuri",
+          "espanol": "medicamento para el resfriado"
+        },
+        {
+          "kanji": "胃薬",
+          "romaji": "igusuri",
+          "espanol": "medicamento para el estómago"
+        },
+        {
+          "kanji": "整腸剤",
+          "romaji": "seichōzai",
+          "espanol": "probióticos/regulador intestinal"
+        },
+        {
+          "kanji": "絆創膏",
+          "romaji": "bansōkō",
+          "espanol": "tiritas/vendas"
+        },
+        {
+          "kanji": "消毒液",
+          "romaji": "shōdoku-eki",
+          "espanol": "desinfectante"
+        }
+      ]
     }
   }
 }
